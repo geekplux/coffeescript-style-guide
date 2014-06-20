@@ -1,14 +1,14 @@
-# CoffeeScript Style Guide
+# CoffeeScript 编码风格指南
 
-This guide presents a collection of best-practices and coding conventions for the [CoffeeScript][coffeescript] programming language.
+这份指南阐述了一些 [CoffeeScript][coffeescript] 的最佳实践和编码惯例。
 
-This guide is intended to be community-driven, and contributions are highly encouraged.
+这份指南是社群驱动的，非常鼓励大家来贡献内容。
 
-Please note that this is a work-in-progress: there is much more that can be specified, and some of the guidelines that have been specified may not be deemed to be idiomatic by the community (in which case, these offending guidelines will be modified or removed, as appropriate).
+请注意这还是一份正在完善的指南：还有很多地方可以改进，有些已制定的准则不一定是社区惯用的（基于此，在适当的情况下，这些有待斟酌的准则将有可能被修改或删除。）
 
-## Inspiration
+## 灵感
 
-The details in this guide have been very heavily inspired by several existing style guides and other resources. In particular:
+本指南中的很多细节受到了几份现有的风格指南和其他资源的启发。特别是：
 
 - [PEP-8][pep8]: Style Guide for Python Code
 - Bozhidar Batsov's [Ruby Style Guide][ruby-style-guide]
@@ -18,30 +18,30 @@ The details in this guide have been very heavily inspired by several existing st
 - Jeremy Ashkenas' [code review][spine-js-code-review] of [Spine][spine-js]
 - The [CoffeeScript FAQ][coffeescript-faq]
 
-## Table of Contents
+## 目录
 
-* [The CoffeeScript Style Guide](#guide)
-    * [Code Layout](#code_layout)
-        * [Tabs or Spaces?](#tabs_or_spaces)
-        * [Maximum Line Length](#maximum_line_length)
-        * [Blank Lines](#blank_lines)
-        * [Trailing Whitespace](#trailing_whitespace)
-        * [Optional Commas](#optional_commas)
-        * [Encoding](#encoding)
-    * [Module Imports](#module_imports)
-    * [Whitespace in Expressions and Statements](#whitespace)
-    * [Comments](#comments)
-        * [Block Comments](#block_comments)
-        * [Inline Comments](#inline_comments)
-    * [Naming Conventions](#naming_conventions)
-    * [Functions](#functions)
-    * [Strings](#strings)
-    * [Conditionals](#conditionals)
-    * [Looping and Comprehensions](#looping_and_comprehensions)
-    * [Extending Native Objects](#extending_native_objects)
-    * [Exceptions](#exceptions)
-    * [Annotations](#annotations)
-    * [Miscellaneous](#miscellaneous)
+* [CoffeeScript 风格指南](#guide)
+    * [代码布局（Code Layout）](#code_layout)
+        * [Tab 还是 空格？（Tabs or Spaces?）](#tabs_or_spaces)
+        * [最大行宽（Maximum Line Length）](#maximum_line_length)
+        * [空行（Blank Lines）](#blank_lines)
+        * [结尾空白（Trailing Whitespace）](#trailing_whitespace)
+        * [可选的逗号（Optional Commas）](#optional_commas)
+        * [编码（Encoding）](#encoding)
+    * [模块导入（Module Imports）](#module_imports)
+    * [表达式和语句中的空白（Whitespace in Expressions and Statements）](#whitespace)
+    * [注释（Comments）](#comments)
+        * [块注释（Block Comments）](#block_comments)
+        * [行内注释（Inline Comments）](#inline_comments)
+    * [命名规范（Naming Conventions）](#naming_conventions)
+    * [函数（Functions）](#functions)
+    * [字符串（Strings）](#strings)
+    * [条件判断（Conditionals）](#conditionals)
+    * [循环和列表解析（Looping and Comprehensions）](#looping_and_comprehensions)
+    * [扩展本地对象（Extending Native Objects）](#extending_native_objects)
+    * [异常（Exceptions）](#exceptions)
+    * [注解（Annotations）](#annotations)
+    * [其他（Miscellaneous）](#miscellaneous)
 
 <a name="code_layout"/>
 ## Code layout

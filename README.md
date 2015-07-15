@@ -318,8 +318,8 @@ foo(4).bar 8
 用字符串插值代替字符串连接符：
 
 ```coffeescript
-"this is an #{adjective} string" # 好
-"this is an " + adjective + " string" # 差
+'this is an #{adjective} string' # 好
+'this is an ' + adjective + ' string' # 差
 ```
 
 最好用单引号 (`''`) 而不是双引号 (`""`) 。除非是插入到另一段现有的字符串中（类似字符串插值）。

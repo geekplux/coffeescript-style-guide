@@ -481,6 +481,9 @@ console.log args... # 好
 (a, b, c, rest...) -> # 好
 ```
 
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/RizFLaSm9aGhe9yCXFhKnPx1/geekplux/coffeescript-style-guide'>  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/RizFLaSm9aGhe9yCXFhKnPx1/geekplux/coffeescript-style-guide.svg' /></a>
+
+
 [coffeescript]: http://jashkenas.github.com/coffee-script/
 [coffeescript-issue-425]: https://github.com/jashkenas/coffee-script/issues/425
 [spine-js]: http://spinejs.com/
@@ -492,3 +495,4 @@ console.log args... # 好
 [coffeescript-specific-style-guide]: http://awardwinningfjords.com/2011/05/13/coffeescript-specific-style-guide.html
 [coffeescript-faq]: https://github.com/jashkenas/coffee-script/wiki/FAQ
 [camel-case-variations]: http://en.wikipedia.org/wiki/CamelCase#Variations_and_synonyms
+

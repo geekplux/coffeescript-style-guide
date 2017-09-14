@@ -1,5 +1,7 @@
 # CoffeeScript 编码风格指南
 
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/RizFLaSm9aGhe9yCXFhKnPx1/geekplux/coffeescript-style-guide'>  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/RizFLaSm9aGhe9yCXFhKnPx1/geekplux/coffeescript-style-guide.svg' /></a>
+
 这份指南阐述了一些 [CoffeeScript][coffeescript] 的最佳实践和编码惯例。
 
 这份指南是社群驱动的，非常鼓励大家来贡献内容。
@@ -480,9 +482,6 @@ console.log args... # 好
 
 (a, b, c, rest...) -> # 好
 ```
-
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/RizFLaSm9aGhe9yCXFhKnPx1/geekplux/coffeescript-style-guide'>  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/RizFLaSm9aGhe9yCXFhKnPx1/geekplux/coffeescript-style-guide.svg' /></a>
-
 
 [coffeescript]: http://jashkenas.github.com/coffee-script/
 [coffeescript-issue-425]: https://github.com/jashkenas/coffee-script/issues/425
